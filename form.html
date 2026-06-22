@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
     <!-- Form Creation
      Label - Text
      input - user write area 
@@ -14,11 +14,12 @@
      placeholder - for hint to user in input field -->
 
     <form action="">
-
+        <i class="fa-solid fa-user"></i>
         <label for="uname">Username:</label> 
         <input id="uname" type="text" placeholder="Name"> 
         <br><br>
 
+        <i class="fa-solid fa-at" style="color: rgb(116, 192, 252);"></i>
         <label for="email">Email</label>
         <input type="email" name="" id="email" placeholder=".com">
         <br><br>
@@ -33,6 +34,51 @@
 
         <label for="dob">DOB</label>
         <input type="date" id="dob">
+        <br><br>
+
+        <label for="">Course:</label>
+        <input name="Course" type="radio">
+        <label for="">ACCA</label>
+        <input name="Course" type="radio">
+        <label for="">CA</label>
+        <input name="Course" type="radio">
+        <label for="">CMA</label>
+        <br><br>
+        <!-- in radio button use one name in all input for correct working of radio button of the label -->
+        
+        <label for="">Language:</label>
+        <input type="checkbox">
+        <label for="">English</label>
+        <input type="checkbox">
+        <label for="">Malayalam</label>
+        <input type="checkbox">
+        <label for="">Hindi</label>
+        <br><br>
+
+        <label for="">District</label>
+        <!-- for selection field used select tag and for options used option tag -->
+        <select name="" id="">
+            <option value="Calicut">Calicut</option>
+            <option value="Malappuram">Malappuram</option>
+            <option value="Thrissur">Thrissur</option>
+            <option value="Kannur">Kannur</option>
+        </select>
+        <br><br>
+
+        <!-- For uploading files in form -->
+        <label for="">Upload the data: </label>
+        <input type="file" name="" id="">
+        <br><br>
+
+        <!-- for button to tag button tag and also input tag type button -->
+        <button>Submit</button> 
+        <input type="button" name="" id="" value="Reset">
+
+        <br><br><br><br>
+        <input type="color">
+        <input type="range">
+
+
 
 
     </form>
